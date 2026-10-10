@@ -1,0 +1,16 @@
+test,structure,n,insert_us,search_us,delete_us
+random keys,BST,100,23.0,18.2,22.8
+random keys,HashTable,100,32.1,7.3,10.8
+random keys,BST,1000,109.3,117.2,114.9
+random keys,HashTable,1000,112.5,32.0,32.7
+random keys,BST,10000,998.8,977.1,978.1
+random keys,HashTable,10000,494.8,117.6,143.2
+sorted keys,BST,100,8.4,9.2,0.3
+sorted keys,HashTable,100,3.3,0.8,0.9
+sorted keys,BST,1000,796.3,871.1,2.7
+sorted keys,HashTable,1000,21.4,6.6,4.9
+sorted keys,BST,10000,74893.6,88060.8,21.8
+sorted keys,HashTable,10000,163.6,14.3,19.9
+no resize (16 buckets),HashTable,100,11.3,0.6,0.7
+no resize (16 buckets),HashTable,1000,103.8,78.0,68.6
+no resize (16 buckets),HashTable,10000,11944.1,12612.1,9403.8
